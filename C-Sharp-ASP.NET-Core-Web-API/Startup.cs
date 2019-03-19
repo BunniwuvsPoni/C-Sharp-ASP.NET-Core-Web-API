@@ -37,6 +37,8 @@ namespace C_Sharp_ASP.NET_Core_Web_API
                 app.UseHsts();
             }
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc();
         }
